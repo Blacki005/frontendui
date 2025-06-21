@@ -15,8 +15,8 @@
   "license": "ISC",
   "description": "",
   "workspaces": [
-    "apps/app_applicant_page",
-    "packages/@blacki005/applicant_page"
+    "apps/*",
+    "packages/*"
   ],
   "devDependencies": {
     "jsdoc": "^4.0.4",
