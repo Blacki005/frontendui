@@ -8,7 +8,7 @@
     "create:scalar": "node scripts/createscalar.js",
     "create:vector": "node scripts/createvector.js",
     "build:apps": "npm run build --workspaces --if-present",
-    "publish:packages": "npm workspaces foreach --include=packages/* npm publish --access public"
+    "publish:packages": "npm publish --workspaces --access public"
   },
   "keywords": [],
   "author": "",
