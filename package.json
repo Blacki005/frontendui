@@ -7,7 +7,7 @@
     "create:component": "node scripts/createcomponent.js",
     "create:scalar": "node scripts/createscalar.js",
     "create:vector": "node scripts/createvector.js",
-    "build:apps": "npm workspaces foreach --include=apps/* npm run build",
+    "build:apps": "npm run build --workspaces --if-present",
     "publish:packages": "npm workspaces foreach --include=packages/* npm publish --access public"
   },
   "keywords": [],
