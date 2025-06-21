@@ -16,7 +16,8 @@
   "description": "",
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "packages/@blacki005/*"
   ],
   "devDependencies": {
     "jsdoc": "^4.0.4",
